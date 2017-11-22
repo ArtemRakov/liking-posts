@@ -1,0 +1,2 @@
+var likes = document.getElementById("<%= @post.id %>_likes")
+likes.innerHTML = "<%= j render 'posts/likes', post: @post %>";
